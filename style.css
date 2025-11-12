@@ -1,0 +1,16 @@
+*{
+    margin: ;
+    padding: ;
+}
+
+.head1{
+    text-decoration: underline;
+    color: #97b4fc;
+    text-shadow: 5px;
+    cursor: not-allowed;
+
+}
+
+.images{
+    border-radius: 50%;
+}
