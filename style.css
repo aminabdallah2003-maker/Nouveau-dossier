@@ -1,16 +1,224 @@
 *{
-    margin: ;
-    padding: ;
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.head1{
-    text-decoration: underline;
-    color: #97b4fc;
-    text-shadow: 5px;
-    cursor: not-allowed;
+.contener{
+    background-color:whitesmoke;
+    height: 650px;
+    width: 600px; ;
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+.contener #profil{
+    width:39% ;
+    height: 100%;
+    border: width 0.5px; ;
+    border-color:white ;
+    background-color: #172b3f;
+
+}
+.contener #profil .image{
+    width: 150px;
+    height:150px ;
+    border-width: 2px; ;
+    border-color:yellow ;
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image:url("./Images/pp.jpeg") ;
+    background-size: cover;
 
 }
 
-.images{
-    border-radius: 50%;
+
+.contact, .langue, .centres-interet{
+    /* padding-left:  12px; ; 
+    padding-right:12px ;
+    padding-top:12px ;
+    padding-bottom:12px ;
+    */
+    padding: 12px;
 }
+
+.titre-contact{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.lang{
+  border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 10px; 
+    color: white;  
+}
+.cdi{
+     border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(203, 203, 32);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 6px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.liste, .liste2, .liste3{
+    list-style: inside;
+}
+.petit2{
+    font-size: 15px;
+    color: white ;
+}
+
+.petit1, .petit3, .petit4, .petit5, .petit6, .petit7, .petit8, .petit9{
+    color: white;
+}
+.span, .span2, .span3{
+    font-weight: bold;
+
+}
+
+.presentation{
+    display: flex;
+    margin-left: 255px;
+    margin-top: -640px;
+    font-size: large;
+}
+.span1{
+    color: rgb(221, 211, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre-poste{
+    display: flex;
+    margin-left: 255px;
+    margin-top: 10px;
+}
+.para1{
+    display: flex;
+ margin-left: 255px;   
+}
+.h4{ 
+    display: flex;
+    margin-left: 255px;
+    margin-top: 10px;
+}
+.titre-formation{
+    margin-left: 350px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color:#172b3f ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 7px;
+    margin-bottom: 10px;
+    color: white; 
+    background-color: #172b3f;
+    margin-right: 20px;
+    margin-left:280px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+.h52{
+    display: flex;
+    margin-left: 255px;
+    border-style: solid;
+    border-width: 1px;
+    color: azure;
+    background-color: black;
+    margin-right: 285px;
+
+
+
+}
+.para2{
+    display: flex;
+    margin-left: 255px;
+    margin-top: -17px;
+    
+}
+.h53{
+    display: flex;
+    margin-left: 255px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    background-color: black;
+    margin-right: 285px;
+}
+.para3{
+    display: flex;
+    margin-left: 255px;
+}
+.gra{
+    display: flex;
+    margin-left: 255px;
+    font-weight: bold;
+    
+}
+.para3{
+    font-weight: bold;
+}
+.para4{
+    display: flex;
+    margin-left: 255px;
+}
+.compet{
+    margin-left: 350px;
+    margin-left: 350px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color:#172b3f ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 7px;
+    margin-bottom: 10px;   
+    color: white; 
+    background-color: #172b3f;
+    margin-right: 20px;
+    margin-left:280px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+.li-compet{
+    margin-left: 274px;
+}
+
+.li2-compet{
+    margin-left: 470px;
+    margin-top: -75px;
+    font-style: oblique;
+}
+    
+
+  
